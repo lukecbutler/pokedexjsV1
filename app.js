@@ -187,6 +187,9 @@ function setPokemonTypes(pokemonObject){
     }
 }
 
+pokemon.indexOf
+
+
 function setPokemonWeaknesses(pokemonObject){
     // get the unordered list from html
     let weaknessesListElem = document.getElementById('weaknesses-list');

@@ -51,6 +51,12 @@ Step 2: Front end & connecting
     - 2.3:
         Set appropriate information to the elements: ✅
 
-Step 3: Polishing the frontend:
+Step 3: Polishing the frontend
     - 3.1: Add all appropriate information to the HTML ✅
     - 3.2: Add pokemon images ✅
+    - 3.3: Add CSS ✅
+
+Step 4: Add searching by name of pokemon
+    - How?
+    
+

@@ -72,11 +72,14 @@ input {
 }
 
 .info-section {
-    width: 100%;
+    width: 110%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
+    background-color: #999;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .info-box {
@@ -97,7 +100,21 @@ hr {
     margin: 2rem 0;
 }
 
-@media (max-width: 400px) {
+.type-and-weaknesses-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.type-div{
+    display: flex;
+}
+
+.weaknesses-div{
+    display: flex;
+}
+
+@media (max-width: 440px) {
     .card {
         padding: 1.2rem;
     }
@@ -116,5 +133,12 @@ hr {
 
     #button {
         width: 100%;
+    }
+    .type-div{
+        flex-direction: column;
+    }
+
+    .weaknesses-div{
+        flex-direction: column;
     }
 }
