@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/pokedexV1/index.html"><h1>Pokedex</h1></a>
+
+    <div class="input-container">
+        <input id="input" type="number" required placeholder="Enter Pokémon ID">
+        <button id="button" onclick="search()">Get Pokemon</button>
+    </div>
+
+    <div class="card">
+        <!-- ID -->
+        <h1 id="id-heading">ID:</h1>
+        <p id="id-text"></p>
+
+        <!-- Species -->
+        <h3 id="species-heading">Species:</h3>
+        <p id="species-text"></p>
+
+        <!-- Image -->
+        <img id="image" alt="">
+
+        <hr>
+
+        <!-- Pokedex Entry -->
+        <h4 id="pokedex-entry-heading">Pokedex Entry:</h4>
+        <p id="pokedex-entry-text"></p>
+
+        <div class="info-section">
+            <div class="info-box">
+                <h5 id="height-heading">Height:</h5>
+                <h4 id="height-text"></h4>
+            </div>
+
+            <div class="info-box">
+                <h5 id="weight-heading">Weight:</h5>
+                <h4 id="weight-text"></h4>
+            </div>
+
+            <div class="info-box">
+                <h5 id="gender-heading">Gender:</h5>
+                <h4 id="gender-text"></h4>
+            </div>
+
+            <div class="info-box">
+                <h5 id="category-heading">Category:</h5>
+                <h4 id="category-text"></h4>
+            </div>
+
+            <div class="info-box">
+                <h5 id="abilities-heading">Abilities:</h5>
+                <h4 id="abilities-text"></h4>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Type -->
+        <h4 id="type-heading">Type:</h4>
+        <ul id="type-list"></ul>
+
+        <!-- Weaknesses -->
+        <h4 id="weaknesses-heading">Weaknesses:</h4>
+        <ul id="weaknesses-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
